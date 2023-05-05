@@ -186,6 +186,7 @@ const Form = () => {
                                 placeholder="Min.."
                                 onChange={handlerChange}
                                 name="weight_min"
+                                className={style.input}
                                  />
                             <input type="text"
                                 value={newDog.weight_max}
