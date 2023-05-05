@@ -33,7 +33,7 @@ export default function FormUser ({setAccess})  {
         if (!Object.values(errors).every(value => value === "")) {
             alert('Required data is missing')
         } else {
-        axios.post(`http://localhost:3001/users/`, newUser)
+        axios.post(`/users/`, newUser)
             .then(res => {
                 alert(res.statusText)
                 setAccess(true)

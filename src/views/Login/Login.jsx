@@ -42,7 +42,7 @@ const Login = ({setAccess}) => {
         return
       } else {
 
-        await axios.get(`http://localhost:3001/users/`, {
+        await axios.get(`/users/`, {
           params: {
             username: userData.username,
             password: userData.password
