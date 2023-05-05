@@ -1,0 +1,18 @@
+.mainContainer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 25px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#d9dad7cf;
+    height: fit-content;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 15px;
+}
