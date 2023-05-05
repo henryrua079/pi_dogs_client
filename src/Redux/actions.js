@@ -3,7 +3,7 @@ import axios from "axios";
 import { GET_DOGS, GET_DOGS_BY_NAME, GET_DOG_BY_ID, GET_TEMPERAMENTS, FILTER_BY_ORIGIN, FILTER_BY_TEMPERAMENT, ORDER_BY_NAME, ORDER_BY_WEIGHT, GET_CURRENT_USER, GET_DOGS_BY_USER_ID } from "./action-types";
 
 
-const URL_BASE = 'http://localhost:3001';
+// const URL_BASE = 'http://localhost:3001';
 
 
 
